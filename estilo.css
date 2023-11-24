@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 16px;
+}
+
+h2 {
+  padding: 1vw;
+  text-align: center;
+  font-size: 3ch;
+}
+
+.descricao {
+  margin-top: 1vw;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+  height: 10vw;
+  background-color: rgb(110, 146, 134);
+}
+
+h1 {
+  text-align: center;
+  font-size: 6ch;
+  margin: 0;
+  padding: 3vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  color: #ddd;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  background-color: rgba(110, 146, 134, 0.263);
+  height: 3vw;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(44, 69, 61);
+  font-size: 1.5vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.546);
+}
+
+div{
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 90vw;
+  min-width: 50vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+.figura1 {
+  margin-top: 3.5vw;
+}
+
+p {
+  margin: 5vw;
+  font-size: 1.5vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: justify;
+  padding-top: -3vw;
+}
+
+
+
+
+#descricao {
+  font-size: 1.5vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: google;
+
+}
+
+figure img{
+  width: 40vw;
+  height: 25vw;
+
+}
+
+figure {
+  text-align: center;
+}
+
+h3{
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  font-size: 1.3vw;
+
+}
+
+legend{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 4vw;
+}
+
+form {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.3vw;
+  justify-content: space-between;
+  display:contents;
+  
+}
+
+@media (max-width: 768px){
+  header{
+    background-color: aqua;
+  }
+}
